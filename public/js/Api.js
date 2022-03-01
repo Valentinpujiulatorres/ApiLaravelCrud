@@ -16,7 +16,7 @@ function destroy($id) {
             console.error('Error:', error);
         });
 
-
+    window.location.reload();
 
 }
 //-------------------------------------------------------------------
@@ -75,6 +75,7 @@ function NewRecord() {
             console.error('Error:', error);
         });
 
+    window.location.reload();
 }
 
 function renderFormularioCrear() {
