@@ -93,3 +93,18 @@ Para visualizar el contenido en ficheros blade haremos lo siguiente :
 >Crear script en : public/js/script.js
 
 Una vez allo debermos asegurarnos que las rutas a los endpoints son correctas  e implementar Create/delete
+
+
+### GIT
+
+Para ddesplegar cualquier proyecto en github deberemos seguir esta guia 
+
+`git init .`
+
+`git add .`
+
+`git commit -m "message"`
+
+`git add RepoName RepoURL`
+
+`git  push -u RepoName RepoBranch`
