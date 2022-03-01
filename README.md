@@ -108,3 +108,30 @@ Para ddesplegar cualquier proyecto en github deberemos seguir esta guia
 `git add RepoName RepoURL`
 
 `git  push -u RepoName RepoBranch`
+
+
+## Despliegue 
+
+Cosas a tener en cuenta de cara al despliegue :
+
+
+
+Ruta de fetch mas larga , deberemos agregar :
+
+>http://vpujiula.randion.es/ProjectName/public/api/endpoint
+
+>La base de datos se configurara de la siguiente manera :
+
+    DB_CONNECTION=pgsql
+    DB_HOST=randion.es
+    DB_PORT=5432
+    DB_DATABASE=vpujiula_db
+    DB_USERNAME=vpujiula_usr
+    DB_PASSWORD=abc123.
+
+Ademas deberemos :
+
+>chmod -R 777 ./public 
+
+>chmod -R 777 ./storage
+
